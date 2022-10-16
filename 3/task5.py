@@ -20,4 +20,4 @@ def fib(k):
 
 
 fib_nums = fib(k)
-print(fib(k))
+print(fib_nums)
