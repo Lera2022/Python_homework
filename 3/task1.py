@@ -5,8 +5,15 @@
 list = [2, 3, 5, 9, 3]
 sum_odd = 0
 
-for i in range(0, len(list)):
+for i in range(0, len(list)):       # range(len(list))  range(1, len(list), 2)
     if i % 2 != 0:
         sum_odd += list[i]
+
+# i = 1
+# while i < len(str):
+#     sum += list[i]
+#     i+=2
+
+# sum(lst(1::2))
 
 print(sum_odd)

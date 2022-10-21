@@ -13,3 +13,14 @@ for i in list:
     if (i - int(i)) >= max:
         max = i - int(i)
 print(max-min)
+
+# newlst = []
+# for i in range(len(lst)):
+#     n = lst[i] % 1
+#     if n != 0:
+#         newlst.append(n)
+
+# maxb = max(newlst)
+# minb = min(newlst)
+
+# print(maxb - minb)

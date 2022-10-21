@@ -13,3 +13,5 @@ while n > 0:
     b = str(a) + b
     n = n // 2
 print(b)
+
+# print(bin(n)[2:])
