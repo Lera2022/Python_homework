@@ -68,18 +68,16 @@ print(polynomial)
 
 # для записи в файл
 
-polynomial = polynomial.replace('+ =', '=')
-polynomial = polynomial.replace('⁹', 'вЃ№')
-polynomial = polynomial.replace('⁸', 'вЃё')
-polynomial = polynomial.replace('⁷', 'вЃ·')
-polynomial = polynomial.replace('⁶', 'вЃ¶')
-polynomial = polynomial.replace('⁵', 'вЃµ')
-polynomial = polynomial.replace('⁴', 'вЃґ')
-polynomial = polynomial.replace('³', 'Ві')
-polynomial = polynomial.replace('²', 'ВІ')
+# polynomial = polynomial.replace('+ =', '=')
+# polynomial = polynomial.replace('⁹', 'вЃ№')
+# polynomial = polynomial.replace('⁸', 'вЃё')
+# polynomial = polynomial.replace('⁷', 'вЃ·')
+# polynomial = polynomial.replace('⁶', 'вЃ¶')
+# polynomial = polynomial.replace('⁵', 'вЃµ')
+# polynomial = polynomial.replace('⁴', 'вЃґ')
+# polynomial = polynomial.replace('³', 'Ві')
+# polynomial = polynomial.replace('²', 'ВІ')
 
-print(polynomial)
-
-data = open('4.txt', 'a')
+data = open('file.txt', 'w', encoding='utf-8')
 data.write(polynomial)
 data.close()
